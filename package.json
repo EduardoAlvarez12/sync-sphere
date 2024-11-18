@@ -5,9 +5,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build": "gh-pages -d build",
     "dev": "vite",
-    "deploy": "gh-pages -d build",
+    "build": "vite build",
+    "deploy": "gh-pages",
     "lint": "eslint .",
     "preview": "vite preview"
   },
